@@ -1,5 +1,5 @@
-varÂ AWSÂ =Â require('aws-sdk'); 
-varÂ AmazonCognitoIdentityÂ =Â require('amazon-cognito-identity-js'); 
+letÂ AWSÂ =Â require('aws-sdk'); 
+let AmazonCognitoIdentityÂ =Â require('amazon-cognito-identity-js'); 
 global.fetchÂ =Â require('node-fetch');
 
 exports.handlerÂ =Â (event,Â context,Â callback)Â =>Â  
